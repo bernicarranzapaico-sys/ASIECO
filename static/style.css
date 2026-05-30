@@ -1,0 +1,82 @@
+/* ASIECO - Asociación Interamericana de Ecografía
+   Estilos personalizados y animaciones avanzadas */
+
+/* Animación de brinco lento para elementos decorativos */
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 4s ease-in-out infinite;
+}
+
+/* Modales personalizados y transiciones */
+#program-modal, #whatsapp-modal {
+  transition: opacity 0.3s ease;
+}
+
+/* Ajustes de tipografía y visuales */
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Estilos de tabla del syllabus o listas */
+.syllabus-item {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.syllabus-item:hover {
+  transform: translateX(4px);
+  background-color: #f1f5f9;
+}
+
+/* Sombras suaves de ecografía */
+.shadow-premium {
+  box-shadow: 0 10px 30px -5px rgba(10, 60, 117, 0.08);
+}
+
+.shadow-premium-xl {
+  box-shadow: 0 20px 40px -8px rgba(10, 60, 117, 0.12);
+}
+
+/* Color azul médico ASIECO (#0A3C75) y celeste */
+.text-brand-blue {
+  color: #0A3C75;
+}
+
+.bg-brand-blue {
+  background-color: #0A3C75;
+}
+
+.border-brand-blue {
+  border-color: #0A3C75;
+}
+
+/* Transiciones globales para botones */
+a, button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scrollbar premium médica */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
