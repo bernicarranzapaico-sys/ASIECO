@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import footerBrandLogo from '../assets/images/logo_asieco_1780183696351.png';
+import footerBrandLogo from '../assets/images/logo_asieco_1780186155159.png';
 
 export default function Footer() {
   return (

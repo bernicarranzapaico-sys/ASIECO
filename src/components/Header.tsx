@@ -5,7 +5,7 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X, PhoneCall, GraduationCap } from 'lucide-react';
-import logoImg from '../assets/images/logo_asieco_1780183696351.png';
+import logoImg from '../assets/images/logo_asieco_1780186155159.png';
 
 interface HeaderProps {
   onOpenContact: () => void;

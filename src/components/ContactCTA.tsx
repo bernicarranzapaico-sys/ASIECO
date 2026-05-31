@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { PhoneCall, Check, MessageSquare, Send, HelpCircle, Sparkles } from 'lucide-react';
-import footerLogoImg from '../assets/images/logo_asieco_1780183696351.png';
+import footerLogoImg from '../assets/images/logo_asieco_1780186155159.png';
 
 interface ContactCTAProps {
   isModalOpen: boolean;

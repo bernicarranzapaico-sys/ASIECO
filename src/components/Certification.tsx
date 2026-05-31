@@ -4,7 +4,7 @@
  */
 
 import { ShieldAlert, CheckCircle, FileBadge } from 'lucide-react';
-import certImg from '../assets/images/doctor_certificate_1780183748491.png';
+import certImg from '../assets/images/doctor_certificate_1780186177083.png';
 
 export default function Certification() {
   const points = [

@@ -4,7 +4,7 @@
  */
 
 import { GraduationCap, Award, Stethoscope, Check } from 'lucide-react';
-import doctorImg from '../assets/images/doctor_sarria_1780183731562.png';
+import doctorImg from '../assets/images/doctor_sarria_1780186194183.png';
 
 export default function Teachers() {
   const achievements = [
